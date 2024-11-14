@@ -1,3 +1,4 @@
+import Button from "./components/Button";
 import ListGroup from "./components/ListGroup";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   };
   return (
     <div>
+      <Button text="test" className="btn-secondary"/>
       <ListGroup
         items={items}
         heading="Cities"
